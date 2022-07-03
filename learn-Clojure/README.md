@@ -17,18 +17,10 @@ wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein ~/b
 lein
 ```
 
-## Start with koans
-
-### Cloan koans repo inside ours and remove .git
+### Cloan koans repo
 
 ``` sh
 git clone git://github.com/functional-koans/clojure-koans.git ~/Comp/Clojure/clojure-koans
 sudo rm -rf ~/Comp/Clojure/clojure-koans/.git
 ```
 
-### Launch koans
-
-``` sh
-cd ~/Comp/Clojure/clojure-koans
-lein koan run
-```
